@@ -1,0 +1,53 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Quicksand:wght@300..700&display=swap');
+
+p{
+    font-family: "Bungee Spice", sans-serif;
+    font-weight: 800;
+    font-size: 40px;
+  }
+  #main{
+    background-color: rgb(255, 255, 255);
+    border: 20px solid rgb(226, 58, 43);
+    border-radius: 100px;
+    padding: 10px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+  }
+  .gravity{
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+  }
+
+  .this{
+    background-color: blue;
+    color: black;
+    font-size: 30px;
+  }
+
+  @media screen and (min-width: 600px)
+  {
+    .this{
+    background-color: blue;
+    color: orange;
+    font-size: 30px;
+}
+  }
+  @media screen and (max-width: 400px)
+  {
+    .this{
+    background-color: rgba(10, 114, 29, 0.974);
+    color: orange;
+    font-size: 30px;
+}
+  }
+
+  @media screen and (max-width: 300px)
+  {
+    .this{
+    background-color: rgb(228, 224, 29);
+    color: rgb(255, 0, 0);
+    font-size: 30px;
+}
+  }
