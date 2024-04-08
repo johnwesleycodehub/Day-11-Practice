@@ -31,7 +31,7 @@ p{
     .this{
     background-color: blue;
     color: orange;
-    font-size: 30px;
+    font-size: 20px;
 }
   }
   @media screen and (max-width: 400px)
@@ -39,7 +39,7 @@ p{
     .this{
     background-color: rgba(10, 114, 29, 0.974);
     color: orange;
-    font-size: 30px;
+    font-size: 15px;
 }
   }
 
@@ -48,6 +48,6 @@ p{
     .this{
     background-color: rgb(228, 224, 29);
     color: rgb(255, 0, 0);
-    font-size: 30px;
+    font-size: 10px;
 }
   }
